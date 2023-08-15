@@ -1,24 +1,74 @@
-# AngularCircularProgressbar
+# Angular Circular Progressbar With Handler
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+![alt text](https://i.ibb.co/CsbT6Hr/progress.png)
 
-## Code scaffolding
+### Just install it and call the module then use the component
 
-Run `ng generate component component-name --project angular-circular-progressbar` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-circular-progressbar`.
-> Note: Don't forget to add `--project angular-circular-progressbar` or else it will be added to the default project in your `angular.json` file. 
+```css
+<angular-circular-progressbar
+[percentage]="30"
+[radius]="58"
+[bgStrokeColor]="'#EAEAEA'"
+[bgStrokeFill]="'transparent'"
+[bgStrokeWidth]="5"
+[progressStrokeColor]="'#3F8DFC'"
+[progressStrokeFill]="'transparent'"
+[progressStrokeWidth]="5"
+[fontFamily]="'arial'"
+[fontSize]="28"
+[fontWeight]="700"
+[textColor]="'#3F8DFC'"
+[handleBorderColor]="'transparent'"
+[handleFillColor]="'#3F8DFC'"
+[handleRadius]="8"
+[clockWise]="true"
+[strokeLinecap]="'round'"
+[reversedText]="false"
+[mutedFontFamily]="'arial'"
+[mutedFontSize]="12"
+[mutedFontWeight]="400"
+[mutedText]="'alt text'"
+[mutedTextColor]="'#ccc'"
+[defaultShadow]="true"
+> </angular-circular-progressbar>
+```
 
-## Build
+### It's already compatible with SSR
 
-Run `ng build angular-circular-progressbar` to build the project. The build artifacts will be stored in the `dist/` directory.
+for more Info [Angular Circular Progressbar With Handler](https://github.com/shadynoor9/Angular-circular-progressbar)
 
-## Publishing
+| Input.              | Type    | Description                                                                              |
+| ------------------- | ------- | ---------------------------------------------------------------------------------------- |
+| percentage          | number  | the percentage from 100 and zero by defaul                                               |
+| radius              | number  | the radius the circules and `required`                                                   |
+| width               | any     | if you want specific width for svg or by default it will be (radius x 2.3)               |
+| fontSize            | number  | font size of the percentage                                                              |
+| fontFamily          | string  | font family for percentage                                                               |
+| fontWeight          | number  | font weight for percentage                                                               |
+| textColor           | string  | text color of percentage                                                                 |
+| bgStrokeColor       | string  | background circle background color                                                       |
+| bgStrokeFill        | string  | background circle stroke fill type (color or transparent) it should be transparent       |
+| bgStrokeWidth       | number  | background circle stroke width                                                           |
+| progressStrokeColor | string  | progress circle background color                                                         |
+| progressStrokeFill  | string  | progress circle stroke fill type (color or transparent) it should be transparent         |
+| progressStrokeWidth | number  | progress circle stroke width                                                             |
+| handleRadius        | number  | handler circle radius                                                                    |
+| handleBorderWidth   | number  | handler circle stroke width incase you want it                                           |
+| handleBorderColor   | string  | handler circle stroke color                                                              |
+| handleFillColor     | string  | handler circle fill color                                                                |
+| mutedText           | string  | alternative text content                                                                 |
+| mutedFontFamily     | string  | alternative text font family                                                             |
+| mutedTextColor      | string  | alternative text color                                                                   |
+| mutedFontSize       | number  | alternative text font size                                                               |
+| mutedFontWeight     | number  | alternative text font weight                                                             |
+| strokeLinecap       | string  | progress circle stroke type ( butt , round , square )                                    |
+| filterValue         | string  | incase you want to add a filter for handler                                              |
+| clockWise           | boolean | the direction of the progress bar                                                        |
+| reversedText        | boolean | change text direction for percentage                                                     |
+| defaultShadow       | boolean | if true it will show a default shadow on handler                                         |
+| responsive          | boolean | if true it will multiple every number entered by 0.8 if the width is smaller that 1600px |
 
-After building your library with `ng build angular-circular-progressbar`, go to the dist folder `cd dist/angular-circular-progressbar` and run `npm publish`.
+Created with love by [Shady Noor](https://github.com/shadynoor)
+shadynoor9@gmail.com
 
-## Running unit tests
-
-Run `ng test angular-circular-progressbar` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If you can improve it just pull it and do push a PR

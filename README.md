@@ -1,4 +1,4 @@
-# Angular Circular Progressbar With Handle
+# Angular Circular Progressbar With Handler
 
 ![alt text](https://i.ibb.co/CsbT6Hr/progress.png)
 
@@ -68,5 +68,7 @@ for more Info [Angular Circular Progressbar With Handler](https://github.com/sha
 | defaultShadow       | boolean | if true it will show a default shadow on handler                                         |
 | responsive          | boolean | if true it will multiple every number entered by 0.8 if the width is smaller that 1600px |
 
-
 Created with love by [Shady Noor](https://github.com/shadynoor)
+shadynoor9@gmail.com
+
+If you can improve it just pull it and do push a PR
