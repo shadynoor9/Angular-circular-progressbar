@@ -35,7 +35,7 @@
 
 ### It's already compatible with SSR
 
-for more Info [Angular Circular Progressbar With Handler](https://github.com/shadynoor/Angular-Circular-Progressbar-With-Handler)
+for more Info [Angular Circular Progressbar With Handler](https://github.com/shadynoor9/Angular-circular-progressbar)
 
 | Input.              | Type    | Description                                                                              |
 | ------------------- | ------- | ---------------------------------------------------------------------------------------- |
@@ -67,3 +67,6 @@ for more Info [Angular Circular Progressbar With Handler](https://github.com/sha
 | reversedText        | boolean | change text direction for percentage                                                     |
 | defaultShadow       | boolean | if true it will show a default shadow on handler                                         |
 | responsive          | boolean | if true it will multiple every number entered by 0.8 if the width is smaller that 1600px |
+
+
+Created with love by [Shady Noor](https://github.com/shadynoor)
