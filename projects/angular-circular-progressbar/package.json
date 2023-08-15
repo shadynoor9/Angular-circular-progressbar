@@ -1,6 +1,13 @@
 {
   "name": "angular-circular-progressbar-with-handle",
   "version": "0.0.1",
+  "keywords": [
+    "angular",
+    "circular progressbar",
+    "handler",
+    "handle",
+    "progressbar"
+  ],
   "peerDependencies": {
     "@angular/common": "^16.0.0",
     "@angular/core": "^16.0.0"

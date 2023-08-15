@@ -1,6 +1,13 @@
 {
   "name": "angular-circular-progressbar-with-handle",
   "version": "0.0.3",
+  "keywords": [
+    "angular",
+    "circular progressbar",
+    "handler",
+    "handle",
+    "progressbar"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +15,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
