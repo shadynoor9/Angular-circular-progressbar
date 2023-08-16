@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { AngularCircularProgressbarComponent } from './angular-circular-progressbar.component';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [AngularCircularProgressbarComponent],
-  imports: [BrowserModule],
+  imports: [CommonModule],
   exports: [AngularCircularProgressbarComponent],
 })
 export class AngularCircularProgressbarModule {}
