@@ -4,7 +4,11 @@ import { AngularCircularProgressbarService } from './angular-circular-progressba
 @Component({
   selector: 'angular-circular-progressbar',
   template: `
-    <svg class="progress-circle" width="500" height="500">
+    <svg
+      class="progress-circle"
+      [style.width]="radius * 2.24 + 'px'"
+      [style.height]="radius * 2.24 + 'px'"
+    >
       <circle
         class="circle-background"
         [attr.stroke]="bgStrokeColor"
