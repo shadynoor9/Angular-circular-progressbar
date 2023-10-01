@@ -81,6 +81,7 @@ import { AngularCircularProgressbarService } from './angular-circular-progressba
       svg {
         display: block;
         margin: auto;
+        overflow: visible;
       }
       .handle-shadow {
         -webkit-filter: drop-shadow(-1px 4px 2px rgba(0, 0, 0, 0.25));
